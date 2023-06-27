@@ -1,0 +1,35 @@
+.back-img {
+  opacity: 0.92;
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+@media (max-width: 320px) {
+  .back-img {
+    width: 100%;
+    height: auto;
+  }
+    .main-text {
+        position: absolute;
+        top: 350px;
+        left: 600px;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    
+  }
+}
+/* menu */
+
+/* endin menu */
